@@ -21,7 +21,6 @@ vector<int> findHelperMarks(vector<int>& marks) {
 }
 
 int main() {
-    // Example 1
     vector<int> marks1 = {3, 8, 5, 2, 25};
     vector<int> result1 = findHelperMarks(marks1);
     for (int i : result1) {
